@@ -9,6 +9,7 @@ public class UsuarioResponse {
     private String name;
     private String lastName;
     private int bolivares;
+    private String lang;
 
     public String getId() {
         return id;
@@ -64,6 +65,14 @@ public class UsuarioResponse {
 
     public void setBolivares(int bolivares) {
         this.bolivares = bolivares;
+    }
+
+    public String getLang() {
+        return lang;
+    }
+
+    public void setLang(String lang) {
+        this.lang = lang;
     }
 }
 

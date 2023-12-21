@@ -33,4 +33,10 @@ public interface UserService {
     @GET("usuario/usuarios/insignias/{Username}")
     Call<List<Insignia>> getInsignias(@Path("Username")String username);
 
+    @GET("usuario/idioma/{mail}")
+    Call<String> getLang(@Path("mail")String mail);
+
+    @PUT("usuario/actualizarIdioma/{mail}/{newLang}")
+    Call<Void> setLang(@Path("mail")String mail, @Path("newLang")String newLang);
+
 }

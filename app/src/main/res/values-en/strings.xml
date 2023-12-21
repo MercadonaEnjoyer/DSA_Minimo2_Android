@@ -1,19 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LoginRegister</string>
-
     <string name="login">Login</string>
     <string name="username">username</string>
     <string name="password">password</string>
     <string name="Register">Register</string>
     <string name="email">email</string>
     <string name="lang">lang</string>
-    <string name="Bienvenido">Bienvenido</string>
+    <string name="Bienvenido">Welcome</string>
     <string name="name">name</string>
     <string name="last_name">Last Name</string>
-    <string name="change_lang">Cambiar idioma</string>
-    <string name="acc_insignias">Acceder a las insignias</string>
-    <string name="acc_tienda">Acceder a la tienda</string>
-    <string name="acc_perfil">Acceder a tu perfil</string>
-    <string name="choose_language">Escoge un lenguaje</string>
-
+    <string name="change_lang">Change language</string>
+    <string name="acc_insignias">Access your achievements</string>
+    <string name="acc_tienda">Access the shop</string>
+    <string name="acc_perfil">Access your profile</string>
+    <string name="choose_language">Choose a language...</string>
 </resources>

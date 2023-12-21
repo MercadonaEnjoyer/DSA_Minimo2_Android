@@ -17,7 +17,7 @@
             android:id="@+id/btn_perfil"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:text="Accede a tu perfil"
+            android:text="@string/acc_perfil"
             app:layout_constraintEnd_toEndOf="parent"/>
 
         <TextView
@@ -40,9 +40,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Bienvenido"
-            android:textSize="30sp"
-            ></TextView>
+            android:text="@string/Bienvenido"
+            android:textSize="30sp">
+        </TextView>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                 android:layout_width="118dp"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Acceder a la tienda"
+                android:text="@string/acc_tienda"
                 tools:layout_editor_absoluteX="146dp"
                 tools:layout_editor_absoluteY="165dp" />
 
@@ -75,7 +75,22 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Acceder a las insignias"
+                    android:text="@string/acc_insignias"
+                    tools:layout_editor_absoluteX="146dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/btn_language"
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/change_lang"
                     tools:layout_editor_absoluteX="146dp"
                     tools:layout_editor_absoluteY="165dp" />
 
