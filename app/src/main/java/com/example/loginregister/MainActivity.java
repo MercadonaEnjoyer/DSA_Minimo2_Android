@@ -23,19 +23,20 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button_Tienda, button_perfil, button_insignias, button_language;
+    Button button_Tienda, button_perfil, button_insignias, button_language, button_denuncia;
 
     TextView username;
     SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        loadLocale();
+        //loadLocale();
         setContentView(R.layout.activity_main);
         button_Tienda = findViewById(R.id.btn_tienda);
         button_perfil = findViewById(R.id.btn_perfil);
         button_insignias = findViewById(R.id.btn_insignias);
         button_language = findViewById(R.id.btn_language);
+        button_denuncia = findViewById(R.id.btn_denuncia);
         username = findViewById(R.id.username);
 
 
@@ -70,6 +71,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 changeLanguageDialog();
+            }
+        });
+        button_denuncia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DenunciaActivity.class));
             }
         });
     }

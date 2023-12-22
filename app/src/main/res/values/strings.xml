@@ -16,4 +16,10 @@
     <string name="acc_perfil">Acceder a tu perfil</string>
     <string name="choose_language">Escoge un lenguaje</string>
 
+    <string name="jumbotron_denuncia">Denuncia</string>
+    <string name="fecha_denuncia">Introduzca la fecha</string>
+    <string name="titulo_denuncia">Titulo</string>
+    <string name="mensaje_denuncia">Mensaje</string>
+    <string name="enviar_denuncia">Enviar</string>
+
 </resources>

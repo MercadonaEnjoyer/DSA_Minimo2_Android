@@ -39,4 +39,6 @@ public interface UserService {
     @PUT("usuario/actualizarIdioma/{mail}/{newLang}")
     Call<Void> setLang(@Path("mail")String mail, @Path("newLang")String newLang);
 
+    @PUT("denuncia/addDenuncia")
+    Call<Void> addDenuncia(@Body Denuncia denuncia);
 }

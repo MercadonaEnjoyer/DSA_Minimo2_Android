@@ -15,4 +15,10 @@
     <string name="acc_tienda">Access the shop</string>
     <string name="acc_perfil">Access your profile</string>
     <string name="choose_language">Choose a language...</string>
+
+    <string name="jumbotron_denuncia">Complaint</string>
+    <string name="fecha_denuncia">Date</string>
+    <string name="titulo_denuncia">Title</string>
+    <string name="mensaje_denuncia">Message</string>
+    <string name="enviar_denuncia">Send</string>
 </resources>

@@ -31,6 +31,9 @@
             android:name=".Ej1Minimo2Activity"
             android:exported="false" />
         <activity
+                android:name=".DenunciaActivity"
+                android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>

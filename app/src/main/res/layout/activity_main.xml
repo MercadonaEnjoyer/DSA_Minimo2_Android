@@ -97,6 +97,22 @@
 
         </LinearLayout>
 
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/btn_denuncia"
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/jumbotron_denuncia"
+                    tools:layout_editor_absoluteX="146dp"
+                    tools:layout_editor_absoluteY="165dp" />
+
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
